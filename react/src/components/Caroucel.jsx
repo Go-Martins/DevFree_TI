@@ -38,7 +38,7 @@ function Caroucel() {
       <img
         src="/background_efeito-montanha-cortado.svg"
         alt="Montanha"
-        className="absolute bottom-0 left-0 w-full z-10 pointer-events-none opacity-90"
+        className="absolute bottom-0 left-0 w-full z-10 pointer-events-none"
       />
     </div>
   );
