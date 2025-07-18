@@ -5,7 +5,7 @@ export default {
     colors: {
       verdeOliva: "#7A8370",
       azulEscuro: "#171F25",
-      beje: "#F0F0D8",
+      bege: "#F0F0D8",
       laranja: "#F84600",
       verdeWhats: "#25D366",
       white: "#FFFFFF",
