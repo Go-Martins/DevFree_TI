@@ -1,6 +1,11 @@
 import CartText from "./components/CardText";
 import Caroucel from "./components/Caroucel";
+import CaroucelProjects from "./components/CaroucelProjects";
 import Header from "./components/Header";
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 function App() {
   return (
@@ -8,6 +13,7 @@ function App() {
       <Header />
       <Caroucel />
       <CartText />
+      <CaroucelProjects />
     </div>
   );
 }

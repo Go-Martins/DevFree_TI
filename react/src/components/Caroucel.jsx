@@ -4,7 +4,7 @@ import "swiper/css";
 
 function Caroucel() {
   return (
-    <div className="relative h-[30rem] w-full bg-sky-800 overflow-hidden">
+    <div className="CaroucelHeader relative h-[30rem] w-full bg-sky-800 overflow-hidden">
       <Swiper
         modules={[Autoplay]}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
@@ -36,9 +36,9 @@ function Caroucel() {
       </Swiper>
 
       <img
-        src="/background_efeito-montanha-cortado.svg"
+        src="/efeito_montanha_mobile.svg"
         alt="Montanha"
-        className="absolute bottom-0 left-0 w-full z-10 pointer-events-none"
+        className="absolute bottom-0 left-0 z-10 pointer-events-none w-full h-auto"
       />
     </div>
   );
