@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import ServicesSection from "./components/ServicesSection";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Caroucel />
       <CartText />
       <CaroucelProjects />
+      <ServicesSection />
     </div>
   );
 }
