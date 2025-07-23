@@ -14,10 +14,10 @@ body {
 }
 
 body {
-  background: #000;
+  background: #f0f0d8;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
-  color: #fff;
+  color: #f0f0d8;
   margin: 0;
   padding: 0;
 }
@@ -28,14 +28,17 @@ body {
 }
 
 .caroucelProjects {
-  width: 100%;
+  width: auto;
   height: 50%;
+  margin: 0 1rem 0 1rem;
+  background-color: #f0f0d8; /* Tailwind's bg-sky-800 */
+  border-radius: 1.5rem;
 }
 
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #444;
+  background: #f0f0d8;
 
   /* Center slide text vertically */
   display: flex;
@@ -48,6 +51,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 1.5rem;
 }
 
 .swiper {

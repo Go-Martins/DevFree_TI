@@ -1,6 +1,6 @@
 function CartText() {
   return (
-    <div className="py-9 px-6 space-y-8 bg-bege flex flex-col items-center justify-center">
+    <div className="py-16 px-6 space-y-8 bg-bege flex flex-col items-center justify-center">
       <div className="flex flex-col space-y-4 bg-bege">
         <p className="text-azulEscuro font-poppins font-semibold text-base">
           Deseja criar um

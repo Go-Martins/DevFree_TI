@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 
 function App() {
   return (
-    <div class="bg-azulEscuro w-screen h-screen">
+    <div class="bg-bege w-screen h-screen">
       <Header />
       <Caroucel />
       <CartText />
