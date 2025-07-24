@@ -8,7 +8,10 @@ export default {
       bege: "#F0F0D8",
       laranja: "#F84600",
       verdeWhats: "#25D366",
+      verdeEscuro: "#2c9b55",
       white: "#FFFFFF",
+      neve: "#fffafa",
+      cinza: "#D9D9D9",
     },
     fontFamily: {
       poppins: ["Poppins", "sans-serif"],
