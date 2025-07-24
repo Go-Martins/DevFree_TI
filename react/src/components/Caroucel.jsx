@@ -4,7 +4,7 @@ import "swiper/css";
 
 function Caroucel() {
   return (
-    <div className="CaroucelHeader relative h-[30rem] w-full bg-sky-800 overflow-hidden">
+    <section className="CaroucelHeader relative h-[30rem] w-full bg-sky-800 overflow-hidden">
       <Swiper
         modules={[Autoplay]}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
@@ -40,7 +40,7 @@ function Caroucel() {
         alt="Montanha"
         className="absolute bottom-0 left-0 z-10 pointer-events-none w-full h-auto"
       />
-    </div>
+    </section>
   );
 }
 
