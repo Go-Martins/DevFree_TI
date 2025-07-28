@@ -18,13 +18,25 @@ function contactSection() {
           Siga a gente nas redes sociais
         </h5>
         <div class="flex gap-8">
-          <a href="#">
+          <a
+            href="https://www.linkedin.com/in/gabriel-o-martins/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/Icon-linkedin.svg" alt="Ícone do linkedin" />
           </a>
-          <a href="#">
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/Icon-instagram.svg" alt="Ícone do instagram" />
           </a>
-          <a href="#">
+          <a
+            href="https://github.com/Go-Martins"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/Icon-github.svg" alt="Ícone do github" />
           </a>
         </div>

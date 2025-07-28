@@ -4,16 +4,17 @@ import CaroucelProjects from "./components/CaroucelProjects";
 import Header from "./components/Header";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
+import ServicesSection from "./components/ServicesSection";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import ServicesSection from "./components/ServicesSection";
 
 function App() {
   return (
     <div class="bg-bege w-screen h-screen">
       <Header />
+      {/*<DropDownMenu />*/}
       <Caroucel />
       <CartText />
       <CaroucelProjects />

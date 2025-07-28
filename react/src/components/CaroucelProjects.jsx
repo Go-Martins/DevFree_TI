@@ -3,7 +3,7 @@ import { Pagination, Navigation } from "swiper/modules";
 
 function caroucelProjects() {
   return (
-    <section className="caroucelProjects relative pb-4 h-[30rem] w-4/5 bg-sky-800 overflow-hidden rounded-3xl">
+    <section className="caroucelProjects relative h-10 w-4/5 bg-sky-800 overflow-hidden rounded-3xl">
       <Swiper
         slidesPerView={1}
         spaceBetween={25}

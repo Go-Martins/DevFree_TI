@@ -1,4 +1,4 @@
-import { Menu } from "lucide-react";
+import DropDownMenu from "./DropDownMenu";
 
 function Header() {
   return (
@@ -13,6 +13,7 @@ function Header() {
       </button>
     </section>
   );
+  <DropDownMenu />;
 }
 
 export default Header;
