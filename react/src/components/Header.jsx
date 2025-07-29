@@ -1,10 +1,11 @@
-import DropDownMenu from "./DropDownMenu";
-
-function Header() {
+function Header({ aoClicarMenu }) {
   return (
-    <section class="bg-verdeOliva w-screen flex justify-between px-2 items-center">
+    <section class="relative bg-verdeOliva w-screen flex justify-between px-2 items-center">
       <h1 class="font-aldirch font-medium text-medio text-bege">DevFree_TI</h1>
-      <button>
+      <button
+        onClick={aoClicarMenu}
+        class="p-2 hover:rotate-180 transition-all duration-500"
+      >
         <img
           class="size-14"
           src="/menu-align-justify.svg"
@@ -13,7 +14,6 @@ function Header() {
       </button>
     </section>
   );
-  <DropDownMenu />;
 }
 
 export default Header;
