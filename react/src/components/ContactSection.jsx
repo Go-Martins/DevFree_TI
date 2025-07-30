@@ -1,6 +1,6 @@
 function contactSection() {
   return (
-    <section className="contactSection text-center flex flex-col gap-8 font-poppins">
+    <section id="contact" className="contactSection text-center flex flex-col gap-8 font-poppins">
       <div class=" bg-cinza flex flex-col items-center justify-center py-10 px-6">
         <h4 class="text-azulEscuro font-poppins font-semibold text-grande text-center">
           Curtiu? Então não perca tempo e solicite seu orçamento através do

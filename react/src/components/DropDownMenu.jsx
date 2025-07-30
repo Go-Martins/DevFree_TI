@@ -16,13 +16,13 @@ function DropDownMenu({ aberto, refMenu }) {
       >
         <ul className="bg-verdeOliva p-4 space-y-6 m-2 font-poppins text-base">
           <li>
-            <a href="#">Serviços</a>
+            <a href="#services">Serviços</a>
           </li>
           <li className="border-y border-white py-4">
-            <a href="#">Sobre</a>
+            <a href="#about">Sobre</a>
           </li>
           <li>
-            <a href="#">Contato</a>
+            <a href="#contact">Contato</a>
           </li>
         </ul>
       </div>
