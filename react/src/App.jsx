@@ -34,7 +34,7 @@ function App() {
   }, [menuAberto]);
 
   return (
-    <div class="bg-bege w-screen h-screen">
+    <div class="bg-bege w-screen h-screen overflow-x-hidden">
       <Header aoClicarMenu={() => setMenuAberto(!menuAberto)} />
       <DropDownMenu aberto={menuAberto} refMenu={menuRef} />
       <Caroucel />
