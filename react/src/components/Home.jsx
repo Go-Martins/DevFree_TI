@@ -34,7 +34,7 @@ function Home() {
   }, [menuAberto]);
 
   return (
-    <div class="bg-bege w-screen h-screen overflow-x-hidden scroll-smooth">
+    <div className="bg-bege w-screen h-screen overflow-x-hidden scroll-smooth">
       <Header aoClicarMenu={() => setMenuAberto(!menuAberto)} />
       <DropDownMenu aberto={menuAberto} refMenu={menuRef} />
       <Caroucel />
