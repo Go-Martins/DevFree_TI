@@ -3,20 +3,21 @@ import Footer from "./Footer";
 function About() {
   return (
     <div className="flex flex-col min-h-screen">
-      <section className="flex-1 bg-azulEscuro flex flex-col items-center font-aldirch text-pequeno text-justify p-8">
+      <section className="flex-1 bg-azulEscuro flex flex-col items-center font-poppins text-base text-justify text- p-8">
         <div className="flex flex-col gap-5 justify-around">
           <div className="flex flex-col gap-6 just">
-            <div className="text-center text-medio">Sobre a DevFree_TI</div>
+            <h3 className="text-center text-medio">Olá, somos a <b>DevFree_TI</b>.</h3>
             <div>
-              A DevFree_TI é uma empresa de tecnologia especializada no
-              desenvolvimento de soluções digitais sob medida. Atuamos na
-              criação de sites institucionais, landing pages, aplicações web
-              completas e aplicativos mobile. Contamos com um time de
-              desenvolvedores talentosos, comprometidos com inovação, qualidade
-              e resultados.
+              <p className="indent-6">Uma empresa de tecnologia focada em desenvolver soluções digitais modernas e eficientes. Atuamos na criação de sites, landing pages, sistemas web e aplicativos mobile, sempre com o compromisso de entregar qualidade e inovação.
+              </p>
+              <br />
+              <p className="indent-6">Nosso time é formado por desenvolvedores capacitados e atualizados com as tecnologias mais recentes do mercado. Contamos também com especialistas em diversas áreas da tecnologia — do backend ao frontend, passando por mobile e análise de dados.</p>
+              <br />
+              <p className="indent-6"> Na DevFree_TI, acreditamos que a tecnologia certa, nas mãos certas, pode transformar qualquer ideia em um produto de alto impacto.</p>
+              
             </div>
           </div>
-          <img src="/logo_devfreeti.png" alt="" />
+          <img className="" src="/logo-devfreeti.png" alt="" />
         </div>
       </section>
       <Footer />

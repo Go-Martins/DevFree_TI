@@ -15,7 +15,7 @@ function CartText() {
           melhores práticas e ferramentas do mercado?
         </p>
       </div>
-      <button className="bg-azulEscuro mx-14 rounded-xl">
+      <button className="bg-azulEscuro w-4/5 rounded-xl">
         <p className="text-bege font-poppins font-medium text-base text-center p-4">
           Então se liga nos nossos projetos abaixo
         </p>
