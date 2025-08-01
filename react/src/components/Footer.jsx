@@ -1,4 +1,4 @@
-function footer() {
+function Footer() {
   return (
     <footer className="bg-laranja text-white py-8 px-4">
       <div className="container mx-auto text-center">
@@ -10,4 +10,4 @@ function footer() {
     </footer>
   );
 }
-export default footer;
+export default Footer;

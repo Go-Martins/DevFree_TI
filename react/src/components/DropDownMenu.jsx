@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function DropDownMenu({ aberto, refMenu }) {
   return (
     <div className="relative">
@@ -19,7 +21,7 @@ function DropDownMenu({ aberto, refMenu }) {
             <a href="#services">Serviços</a>
           </li>
           <li className="border-y border-white py-4">
-            <a href="#about">Sobre</a>
+            <Link to="/about">Sobre</Link>
           </li>
           <li>
             <a href="#contact">Contato</a>
