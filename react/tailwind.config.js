@@ -2,6 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    screens: {
+      tablet: "640px",
+      laptop: "1024px",
+      desktop: "1280px",
+    },
     colors: {
       verdeOliva: "#7A8370",
       azulEscuro: "#171F25",
