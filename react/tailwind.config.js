@@ -1,8 +1,11 @@
+import { Smartphone } from "lucide-react";
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
+      smartphone: "300px",
       tablet: "640px",
       laptop: "1024px",
       desktop: "1280px",
@@ -25,6 +28,7 @@ export default {
     fontSize: {
       base: ["1.125rem", { lineHeight: "1.5rem" }], // 18px
       pequeno: ["1.25rem", { lineHeight: "1.75rem" }], // 20px
+      pequenoHover: "22px",
       medio: ["1.625rem", { lineHeight: "2rem" }], // 26px
       grande: ["1.75rem", { lineHeight: "2.25rem" }], // 28px
       extend: {},

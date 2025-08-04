@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom";
+
 function Header({ aoClicarMenu }) {
   return (
-    <section className="relative bg-verdeOliva w-screen flex justify-between px-2 items-center">
-      <h1 className="font-aldirch font-medium text-medio text-bege">
+    <section className="relative bg-verdeOliva w-screen h-16 flex justify-between px-4 items-center">
+      <h1 className="font-aldirch font-medium text-pequenoHover text-bege">
         DevFree_TI
       </h1>
       <button
         onClick={aoClicarMenu}
-        className="p-2 focus:rotate-180 transition-all duration-500 enabled:hover:scale-110 disabled:opacity-50 disabled:cursor-not-allowed disabled:scale-100 disabled:rotate-0 z-50"
+        className="focus:rotate-180 transition-all duration-500 enabled:hover:scale-110 disabled:opacity-50 disabled:cursor-not-allowed disabled:scale-100 disabled:rotate-0 z-50 block laptop:hidden"
       >
         <img
           className="size-14"
@@ -14,6 +16,29 @@ function Header({ aoClicarMenu }) {
           alt="Botão do menu"
         />
       </button>
+      <nav
+        onClick={aoClicarMenu}
+        className="flex mx-5 font-poppins text-pequeno gap-16 px-4 max-laptop:hidden"
+      >
+        <a
+          className="hover:text-pequenoHover duration-150 ease-out"
+          href="#services"
+        >
+          Serviços
+        </a>
+        <a
+          className="hover:text-pequenoHover duration-150 ease-out"
+          href="#contact"
+        >
+          Contato
+        </a>
+        <Link
+          className="hover:text-pequenoHover duration-150 ease-out"
+          to="/about"
+        >
+          Sobre
+        </Link>
+      </nav>
     </section>
   );
 }
