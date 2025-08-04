@@ -4,7 +4,7 @@ function CartText() {
   return (
     <section className="pb-16 space-y-8 bg-bege flex flex-col items-center justify-center text-center">
       <div className="bg-azulEscuro w-full flex justify-center items-center font-poppins font-medium">
-      <p className="p-4 text-base">Damos asas a sua imaginação</p>
+        <p className="p-4 text-base">Damos asas a sua imaginação</p>
       </div>
       <div className="flex flex-col space-y-4 bg-bege px-2">
         <p className="text-azulEscuro font-poppins font-semibold text-pequeno">
