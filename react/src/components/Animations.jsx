@@ -2,12 +2,13 @@ import * as motion from "motion/react-client";
 
 export default function Keyframes() {
   return (
-    <motion.img
+    <motion.img 
+      className="mx-5"
       src="/logo-sem-fundo-devfreeti2.svg"
       alt="Logo DevFree T I"
       animate={{
-        scale: [2, 1, 1, 1, 2],
-        rotate: [0, 0, 180, 360, 0],
+        scale: [1.5, 1.5, 1, 1, 1.5],
+        rotate: [0, 15, 30, 180, 360],
         borderRadius: ["0%", "0%", "50%", "50%", "0%"],
       }}
       transition={{

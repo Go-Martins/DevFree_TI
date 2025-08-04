@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
+import Keyframes from "./Animations";
 
 function Header({ aoClicarMenu }) {
   return (
     <section className="relative bg-verdeOliva w-screen h-16 flex justify-between px-4 items-center">
-      <h1 className="font-aldirch font-medium text-pequenoHover text-bege">
-        DevFree_TI
-      </h1>
+      <Keyframes className=""/>
       <button
         onClick={aoClicarMenu}
         className="focus:rotate-180 transition-all duration-500 enabled:hover:scale-110 disabled:opacity-50 disabled:cursor-not-allowed disabled:scale-100 disabled:rotate-0 z-50 block laptop:hidden"
