@@ -4,39 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/*.dropDownMenu {
-  position: absolute;
-  top: auto;
-  right: 0%;
-  width: auto;
-  height: min-content;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 50;
-}
-
-.dropDownMenuLista {
-  width: 120px;
-  height: min-content;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-*/
-
 html {
   scroll-behavior: smooth;
 }
 
-#app {
-  height: 100%;
-}
 html,
 body {
   position: relative;
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
