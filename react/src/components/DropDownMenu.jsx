@@ -16,7 +16,7 @@ function DropDownMenu({ aberto, refMenu }) {
         }
       `}
       >
-        <ul className="bg-verdeOliva p-4 space-y-6 m-2 font-poppins text-base">
+        <ul className="bg-azulEscuro p-4 space-y-6 m-2 font-poppins text-base">
           <li>
             <a
               className="hover:text-pequeno duration-150 ease-out"

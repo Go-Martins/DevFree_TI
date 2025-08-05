@@ -3,7 +3,7 @@ import Keyframes from "./Animations";
 function CartText() {
   return (
     <section className="pb-16 space-y-8 bg-bege flex flex-col items-center justify-center text-center">
-      <div className="bg-azulEscuro w-full flex justify-center items-center font-poppins font-medium">
+      <div className="bg-gradient-to-tr from-preto via-azulEscuro to-preto w-full flex justify-center items-center font-poppins font-medium">
         <p className="p-4 text-base">Damos asas a sua imaginação</p>
       </div>
       <div className="flex flex-col space-y-4 bg-bege px-2">

@@ -4,7 +4,7 @@ export default function Keyframes() {
   return (
     <motion.img
       className="mx-5"
-      src="/logo-sem-fundo-devfreeti2.svg"
+      src="/logo-devfreeti.svg"
       alt="Logo DevFree T I"
       animate={{
         scale: [1.5, 1.5, 1.2, 1.2, 1.5],
@@ -24,6 +24,6 @@ export default function Keyframes() {
 }
 
 const logoStyle = {
-  width: 100,
-  height: 100,
+  width: 40,
+  height: 40,
 };

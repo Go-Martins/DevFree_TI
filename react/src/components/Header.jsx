@@ -3,8 +3,11 @@ import Keyframes from "./Animations";
 
 function Header({ aoClicarMenu }) {
   return (
-    <section className="relative bg-verdeOliva w-screen h-16 flex justify-between px-4 items-center">
-      <Keyframes className=""/>
+    <section className="relative bg-gradient-to-tr from-preto via-azulEscuro to-preto w-screen h-16 flex justify-between px-4 items-center">
+      <div className="flex items-center text-pequeno font-aldirch font-medium">
+        <Keyframes />
+        <h1>DevFree_TI</h1>
+      </div>
       <button
         onClick={aoClicarMenu}
         className="focus:rotate-180 transition-all duration-500 enabled:hover:scale-110 disabled:opacity-50 disabled:cursor-not-allowed disabled:scale-100 disabled:rotate-0 z-50 block laptop:hidden"

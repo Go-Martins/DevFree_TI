@@ -20,6 +20,7 @@ export default {
       white: "#FFFFFF",
       neve: "#fffafa",
       cinza: "#D9D9D9",
+      preto: "#000000",
     },
     fontFamily: {
       poppins: ["Poppins", "sans-serif"],
