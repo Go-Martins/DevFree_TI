@@ -1,10 +1,12 @@
 [PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
 [PROJECT__URL]: https://dev-free-ti.vercel.app
 
-
 <p align="center">
   <img src="assets/logo-devfreeti.png" alt="Logo DevFree_TI" width="500"/>
+
 </p>
+
+
 
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
