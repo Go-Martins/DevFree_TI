@@ -34,13 +34,6 @@ body {
   height: 100%;
 }
 
-.caroucelProjects {
-  width: auto;
-  height: 50%;
-  margin: 0 1rem 0 1rem;
-  background-color: #f0f0d8; /* Tailwind's bg-sky-800 */
-}
-
 .swiper-slide {
   text-align: center;
   font-size: 18px;

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Keyframes from "./Animations";
 
-function Header({ aoClicarMenu }) {
+function Header({ aoClicarMenu, aoClicarNav }) {
   return (
     <section className="relative bg-gradient-to-tr from-preto via-azulEscuro to-preto w-screen h-16 flex justify-between px-4 items-center">
       <div className="flex items-center text-pequeno font-aldirch font-medium">
@@ -19,8 +19,8 @@ function Header({ aoClicarMenu }) {
         />
       </button>
       <nav
-        onClick={aoClicarMenu}
-        className="flex mx-5 font-poppins text-pequeno gap-16 px-4 max-laptop:hidden"
+        onClick={aoClicarNav}
+        className="flex font-poppins text-base gap-16 px-10 max-laptop:hidden"
       >
         <a
           className="hover:text-pequenoHover duration-150 ease-out"

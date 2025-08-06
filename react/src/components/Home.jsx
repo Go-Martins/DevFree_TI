@@ -6,12 +6,12 @@ import CaroucelProjects from "./CaroucelProjects";
 import Header from "./Header";
 import ContactSection from "./ContactSection";
 import Footer from "./Footer";
-import ServicesSection from "./ServicesSection";
 import DropDownMenu from "./DropDownMenu";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import ServicesCard from "./ServicesCard";
 
 function Home() {
   const [menuAberto, setMenuAberto] = useState(false);
@@ -40,7 +40,7 @@ function Home() {
       <Caroucel />
       <CartText />
       <CaroucelProjects />
-      <ServicesSection />
+      <ServicesCard />
       <ContactSection />
       <Footer />
     </div>
