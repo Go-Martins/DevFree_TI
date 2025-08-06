@@ -4,7 +4,7 @@ function contactSection() {
       id="contact"
       className="contactSection text-center flex flex-col gap-8 font-poppins"
     >
-      <div className=" bg-cinza flex flex-col items-center justify-center py-10 px-6">
+      <div className=" bg-gradient-to-b from-cinza to-bege flex flex-col items-center justify-center py-10 px-6">
         <h4 className="text-azulEscuro font-poppins font-semibold text-grande text-center">
           Curtiu? Então não perca tempo e solicite seu orçamento através do
           whatsapp
