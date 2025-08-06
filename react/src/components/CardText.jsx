@@ -20,11 +20,11 @@ function CartText() {
           melhores práticas e ferramentas do mercado?
         </p>
       </div>
-      <button className="bg-azulEscuro w-4/5 rounded-xl min-[640px]:w-[400px]">
+      <div className="bg-azulEscuro w-4/5 rounded-xl min-[640px]:w-[400px]">
         <p className="text-bege font-poppins font-medium text-base text-center p-4 min-[640px]:px-6">
           Então se liga nos nossos projetos abaixo
         </p>
-      </button>
+      </div>
     </section>
   );
 }
