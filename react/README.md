@@ -1,12 +1,117 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="assets/logo-devfreeti.png" alt="Logo DevFree_TI" width="500"/>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<details open="open">
+<summary>Table of Contents</summary>
+ 
+- [📌 About](#started)
+- [🚀 Começando](#started)
+  - [Prerequisites](#prerequisites)
+  - [Cloning](#cloning)
+  - [Starting](#starting)
+- [📍 Application Routes](#routes)
+- [🤝 Collaborators](#colab)
+- [📫 Contribute](#contribute)
+
+<h2 id="started">📌 About</h2>
+
+Simple description of what your project do or how to use it.
+
+[![project][PROJECT__BADGE]][PROJECT__URL]
+
+<h2 id="started">🚀 Getting started</h2>
+
+Here you describe how to run your project locally
+
+<h3>Prerequisites</h3>
+
+Here you list all prerequisites necessary for running your project. For example:
+
+- [NodeJS](https://github.com/)
+- [Git 2](https://github.com)
+
+<h3>Cloning</h3>
+
+How to clone your project
+
+```bash
+git clone your-project-url-in-github
+```
+
+<h3>Starting</h3>
+
+How to start your project
+
+```bash
+cd project-name
+npm some-command-to-run
+```
+
+<h2 id="routes">📍 Application Routes</h2>
+
+Here you can list the main routes of your API, and what are their expected request bodies.
+​
+| route               | description                                          
+|----------------------|-----------------------------------------------------
+| <kbd>/authenticate</kbd>     | page that list all user info
+| <kbd>/login</kbd>     | page to login
+| <kbd>/dashboard</kbd>     | page that contains all user shopping and spences info
+
+<h2 id="colab">🤝 Collaborators</h2>
+
+Special thank you for all people that contributed for this project.
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/61896274?v=4" width="100px;" alt="Fernanda Kipper Profile Picture"/><br>
+        <sub>
+          <b>Fernanda Kipper</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://t.ctcdn.com.br/n7eZ74KAcU3iYwnQ89-ul9txVxc=/400x400/smart/filters:format(webp)/i490769.jpeg" width="100px;" alt="Elon Musk Picture"/><br>
+        <sub>
+          <b>Elon Musk</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <sub>
+          <b>Steve Jobs</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<h2 id="contribute">📫 Contribute</h2>
+
+Here you will explain how other developers can contribute to your project. For example, explaining how can create their branches, which patterns to follow and how to open an pull request
+
+1. `git clone https://github.com/Fernanda-Kipper/text-editor.git`
+2. `git checkout -b feature/NAME`
+3. Follow commit patterns
+4. Open a Pull Request explaining the problem solved or feature made, if exists, append screenshot of visual modifications and wait for the review!
+
+<h3>Documentations that might help</h3>
+
+[📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
+
+[💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
