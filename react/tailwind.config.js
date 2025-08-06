@@ -27,11 +27,11 @@ export default {
       aldirch: ["Aldrich", "sans-serif"],
     },
     fontSize: {
-      base: ["1.125rem", { lineHeight: "1.5rem" }], // 18px
-      pequeno: ["1.25rem", { lineHeight: "1.75rem" }], // 20px
+      base: 16, // 18px
+      pequeno: 18, // 20px
       pequenoHover: "22px",
-      medio: ["1.625rem", { lineHeight: "2rem" }], // 26px
-      grande: ["1.75rem", { lineHeight: "2.25rem" }], // 28px
+      medio: 24, // 26px
+      grande: 24, // 28px
       extend: {},
     },
     plugins: [],

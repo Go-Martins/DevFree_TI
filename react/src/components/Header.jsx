@@ -4,7 +4,7 @@ import Keyframes from "./Animations";
 function Header({ aoClicarMenu, aoClicarNav }) {
   return (
     <section className="relative bg-gradient-to-tr from-preto via-azulEscuro to-preto w-screen h-16 flex justify-between px-4 items-center">
-      <div className="flex items-center text-pequeno font-aldirch font-medium">
+      <div className="flex items-center text-pequeno font-aldirch">
         <Keyframes />
         <h1>DevFree_TI</h1>
       </div>

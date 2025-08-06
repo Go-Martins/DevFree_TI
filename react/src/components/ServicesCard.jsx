@@ -20,7 +20,7 @@ function ServicesCard() {
         </div>
       </div>
 
-      <div className="grid-flow-col grid-cols-2 grid items-center justify-items-center gap-[4rem] mx-[1rem] border-b-[1px] pb-16 max-tablet:flex max-tablet:flex-col max-tablet:gap-10 max-tablet:mx-6">
+      <div className="grid-flow-col grid-cols-2 grid items-center justify-items-center gap-[4rem] mx-[1rem] border-b-[1px] pb-16 max-tablet:flex max-tablet:flex-col-reverse max-tablet:gap-10 max-tablet:mx-6">
         <div className="flex flex-col gap-6">
           <h3 className="text-pequeno font-semibold text-justify">
             Aplicativos Mobile Personalizados (Android e iOS)
@@ -48,7 +48,7 @@ function ServicesCard() {
         </div>
       </div>
 
-      <div className="grid-flow-col grid-cols-2 grid items-center justify-items-center gap-[4rem] mx-[1rem] border-b-[1px] pb-16 max-tablet:flex max-tablet:flex-col max-tablet:gap-10 max-tablet:mx-6">
+      <div className="grid-flow-col grid-cols-2 grid items-center justify-items-center gap-[4rem] mx-[1rem] border-b-[1px] pb-16 max-tablet:flex max-tablet:flex-col-reverse max-tablet:gap-10 max-tablet:mx-6">
         <div className="flex flex-col gap-6">
           <h3 className="text-pequeno font-semibold text-justify">
             Catálogos Online com Pedido via WhatsApp
