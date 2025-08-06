@@ -34,7 +34,7 @@ function contactSection() {
             <img src="/Icon-linkedin.svg" alt="Ícone do linkedin" />
           </a>
           <a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/devfree_ti?igsh=N2phcjdyM2Jva3lz"
             target="_blank"
             rel="noopener noreferrer"
           >
