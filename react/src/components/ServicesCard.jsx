@@ -2,11 +2,11 @@ function ServicesCard() {
   return (
     <section
       id="services"
-      className="flex flex-col items-center font-poppins services-section bg-gradient-to-tr from-azulEscuro via-preto to-azulEscuro py-12 pb-20 px-16 mt-4 text-center gap-20"
+      className="flex flex-col items-center font-poppins services-section bg-gradient-to-tr from-azulEscuro via-preto to-azulEscuro py-12 pb-20 px-16 mt-4 text-center gap-20 max-tablet:px-0"
     >
       <h2 className="text-grande font-aldirch font-medium">Nossos Serviços</h2>
 
-      <div className="grid-flow-col grid-cols-2 grid items-center justify-items-center gap-36 mx-20 border-b-[1px] pb-16 max-tablet:flex max-tablet:flex-col max-tablet:gap-10">
+      <div className="grid-flow-col grid-cols-2 grid items-center justify-items-center gap-[4rem] mx-[1rem] border-b-[1px] pb-16 max-tablet:flex max-tablet:flex-col max-tablet:gap-10 max-tablet:mx-6">
         <img className="" src="/cake.svg" alt="" />
         <div className="flex flex-col gap-6">
           <h3 className="text-pequeno font-semibold text-justify">
@@ -20,7 +20,7 @@ function ServicesCard() {
         </div>
       </div>
 
-      <div className="grid-flow-col grid-cols-2 grid items-center justify-items-center gap-36 mx-20 border-b-[1px] pb-16 max-tablet:flex max-tablet:flex-col-reverse max-tablet:gap-10 ">
+      <div className="grid-flow-col grid-cols-2 grid items-center justify-items-center gap-[4rem] mx-[1rem] border-b-[1px] pb-16 max-tablet:flex max-tablet:flex-col max-tablet:gap-10 max-tablet:mx-6">
         <div className="flex flex-col gap-6">
           <h3 className="text-pequeno font-semibold text-justify">
             Aplicativos Mobile Personalizados (Android e iOS)
@@ -34,7 +34,7 @@ function ServicesCard() {
         <img className="" src="/phone_iphone.svg" alt="" />
       </div>
 
-      <div className="grid-flow-col grid-cols-2 grid items-center justify-items-center gap-36 mx-20 border-b-[1px] pb-16 max-tablet:flex max-tablet:flex-col max-tablet:gap-10">
+      <div className="grid-flow-col grid-cols-2 grid items-center justify-items-center gap-[4rem] mx-[1rem] border-b-[1px] pb-16 max-tablet:flex max-tablet:flex-col max-tablet:gap-10 max-tablet:mx-6">
         <img className="" src="/storefront.svg" alt="" />
         <div className="flex flex-col gap-6">
           <h3 className="text-pequeno font-semibold text-justify">
@@ -48,7 +48,7 @@ function ServicesCard() {
         </div>
       </div>
 
-      <div className="grid-flow-col grid-cols-2 grid items-center justify-items-center gap-36 mx-20 border-b-[1px] pb-16 max-tablet:flex max-tablet:flex-col-reverse max-tablet:gap-10 ">
+      <div className="grid-flow-col grid-cols-2 grid items-center justify-items-center gap-[4rem] mx-[1rem] border-b-[1px] pb-16 max-tablet:flex max-tablet:flex-col max-tablet:gap-10 max-tablet:mx-6">
         <div className="flex flex-col gap-6">
           <h3 className="text-pequeno font-semibold text-justify">
             Catálogos Online com Pedido via WhatsApp
@@ -61,7 +61,7 @@ function ServicesCard() {
         <img className="" src="/local_mall.svg" alt="" />
       </div>
 
-      <div className="grid-flow-col grid-cols-2 grid items-center justify-items-center gap-36 mx-20 pb-16 max-tablet:flex max-tablet:flex-col max-tablet:gap-10">
+      <div className="grid-flow-col grid-cols-2 grid items-center justify-items-center gap-[4rem] mx-[1rem] pb-16 max-tablet:flex max-tablet:flex-col max-tablet:gap-10 max-tablet:mx-6">
         <img className="" src="/trending_up.svg" alt="" />
         <div className="flex flex-col gap-6">
           <h3 className="text-pequeno font-semibold text-justify">
