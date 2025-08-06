@@ -74,7 +74,7 @@ npx tailwindcss init -p
 <h2 id="routes">📍 Rotas da aplicação</h2>
 
 
-| route               | description                                          
+| rotas             | descrição                                          
 |----------------------|-----------------------------------------------------
 | <kbd>/</kbd>     | página home
 | <kbd>/about</kbd>     | página com informações sobre a DevFree_TI
