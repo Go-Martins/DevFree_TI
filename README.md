@@ -19,57 +19,14 @@
 <summary>Índice</summary>
  
 - [📌 Sobre](#started)
-- [🚀 Começando](#started)
-  - [Pré requisitos](#prerequisites)
-  - [Clonagem](#cloning)
-  - [Iniciando](#starting)
+
 - [📍 Rotas da aplicação](#routes)
 
 <h2 id="started">📌 Sobre</h2>
 
-Este site foi desenvolvido como um portfólio 100% autoral, com o objetivo de apresentar minhas habilidades em desenvolvimento front-end, design e experiência do usuário. Além disso, funciona como uma vitrine para exibir projetos pessoais e profissionais, servindo como referência para oportunidades comerciais, parcerias ou contratações.
+Este site foi desenvolvido como um portfólio, 100% autoral, com o objetivo de praticar minhas habilidades em React e Tailwind CSS. Além disso, funciona como uma vitrine para exibir futuros projetos pessoais e profissionais, servindo como referência para oportunidades comerciais.
 
 [![project][PROJECT__BADGE]][PROJECT__URL]
-
-<h2 id="started">🚀 Começando</h2>
-
-Aqui você encontrará as instruções para rodar o projeto localmente, desde a clonagem até a execução no ambiente de desenvolvimento.
-
-<h3>Pré requisitos</h3>
-
-
-- [Git 2](https://github.com)
-- [NodeJS](https://github.com/)
-- [VScode](https://code.visualstudio.com/)
-
-<h3>Clonando o repositório</h3>
-
-```bash
-git clone https://github.com/Go-Martins/DevFree_TI.git
-```
-
-<h3>Iniciando</h3>
-
-Como iniciar o projeto
-
-```bash
-cd react
-
-npm install
-
-npm run dev
-```
-Após o último comando, o terminal irá mostrar um link como este:
-👉 http://localhost:5173/
-Basta clicar ou colar no navegador para visualizar o projeto rodando localmente.
-
-Em seguida, rodar os seguintes comandos para instalar o tailwind.
-
-```bash
-npm install -D tailwindcss@3 postcss autoprefixer
-
-npx tailwindcss init -p
-```
 
 <h2 id="routes">📍 Rotas da aplicação</h2>
 
